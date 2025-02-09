@@ -13,7 +13,7 @@ print('-'* 81)
 # use * as the overload operator to multiply the string (-) with the number of characters (81) - integer
 
 list_Belgium=Belgium.split(",")
-# uses substrings in a string and returns a list - the comma is the seperator and it is used to split the string
+# uses substrings in a string and returns a list - the comma is the seperator, and it is used to split the string
 # strings are immutable (cannot be changed) - turns this into a list to separate each substring
 # lists are mutable, can be changed
 
