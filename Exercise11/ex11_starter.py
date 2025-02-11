@@ -12,11 +12,11 @@ print (len(Belgium))
 # has to be a sequence/collection placed inside
 
 print('-'* len(Belgium))
-# concise way of writing function instead of including the integer - the string multiplied by len
+# the string is multiplied by value returned from len (length of Belgium)
 
 list_Belgium=Belgium.split(",")
 # uses substrings in a string and returns a list - the comma is the seperator, and it is used to split the string
-# strings are immutable (cannot be changed) - turns this into a list to separate each substring
+# strings are immutable (cannot be changed) - turns this into a list of individual values
 # lists are mutable, can be changed, and so we can extract data
 
 print(list_Belgium)
